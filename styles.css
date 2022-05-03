@@ -1,0 +1,32 @@
+body {
+  background-color: #68A7AD;
+  margin: 0;
+}
+
+.big-navbar {
+    display: flex;
+    background-color: #99C4C8;
+    padding: 5px 5px;
+    color: white;
+  }
+  
+  .navbar-clickables {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+  }
+  
+  .nav-link {
+     text-decoration: none;
+     color: white;
+     padding: 5px;
+     margin: 5px;
+  }
+  
+  .logo-header {
+    flex: 1;
+  }
+  
+  .blank-section {
+    flex: 1;
+  }
