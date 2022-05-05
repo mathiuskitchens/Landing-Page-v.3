@@ -2,6 +2,14 @@ body {
   background-color: #68A7AD;
   margin: 0;
   font-family: 'Fauna One', serif;
+  padding: 20px;
+}
+
+img {
+  height: 100px;
+  display: block;
+  text-align: center;
+  margin: auto;
 }
 
 .big-navbar {
@@ -13,8 +21,9 @@ body {
   
   .navbar-clickables {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex: 2;
+    flex-wrap: wrap;
   }
   
   .nav-link {
@@ -30,4 +39,9 @@ body {
   
   .blank-section {
     flex: 1;
+  }
+
+  #video {
+    display: flex;
+    justify-content: center;
   }
